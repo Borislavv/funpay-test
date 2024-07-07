@@ -51,8 +51,6 @@ readonly class DatabaseTest
             );
         }
 
-        var_dump($results, self::CORRECT_TEST_ANSWERS);
-
         if ($results !== self::CORRECT_TEST_ANSWERS) {
             throw new TestFailedException();
         }
