@@ -29,6 +29,6 @@
 Код должен работать с php 8.3.
 
 ## Решение: 
-1. git clone <<repository-url>>
+1. git clone https://github.com/Borislavv/funpay-test.git
 2. docker-compose --build
 3. Status codes: 0 means success, 1 means failure (or exception otherwise).
