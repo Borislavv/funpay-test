@@ -1,0 +1,19 @@
+{
+  "name": "funpay/test",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "FpDbTest\\": "src/",
+      "Tests\\FpDbTest\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Boris",
+      "email": "glazunov2142@icloud.com"
+    }
+  ],
+  "require": {
+    "ext-mysqli": "*"
+  }
+}
